@@ -11,7 +11,7 @@ Include in your CMakeLists.txt file using FetchContent.
 FetchContent_Declare(
   glad
   GIT_REPOSITORY https://github.com/SimonCouplandDMU/DMUGlad.git
-  GIT_TAG        gl4.6_core_no_ext
+  GIT_TAG        gl4.6_core_ARB_bindless_texture
  )
  
  FetchContent_MakeAvailable(glad)
